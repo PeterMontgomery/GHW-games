@@ -41,12 +41,12 @@
 }
 
 #garment {
-  background-image: url("https://media.endclothing.com/media/catalog/product/1/3/13-01-2023-si_rp01c5894-lpo-911_1.jpg");
+  background-image: url("assets/rick/shorts.jpg");
   background-repeat: no-repeat;
-  
-  width: 1000px;
-  height: 1000px;
- 
+
+  width: 40;
+  height: 35;
+
   position: relative;
   top: 100px;
   left: 880px;

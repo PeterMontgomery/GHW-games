@@ -43,17 +43,10 @@
   height: 130px;
 
   position: relative;
-  top: 200px;
-  left: 880px;
-  animation: block 3s infinite linear;
-}
-@keyframes block {
-  0% {
-    left: 880px;
-  }
-  100% {
-    left: -20px;
-  }
+  top: 15px;
+  left: 720px;
+  will-change: transform;
+  
 }
 p {
   text-align: center;

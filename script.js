@@ -25,16 +25,16 @@ function createWardrobe(){
 createWardrobe()
 
 function animateGarment(){
-    const garmentSpinning = [
+    
+    const garmentTranslate = [
         { transform: "translate(-880px)" }
     ]
     const garmentTiming = {
         duration: 3000,
         iterations: Infinity,
     }
-    
     const garment = document.getElementById("garment");
-    garment.animate(garmentSpinning, garmentTiming);
+    garment.animate(garmentTranslate, garmentTiming);
 }
 animateGarment()
 

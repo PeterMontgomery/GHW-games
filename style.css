@@ -13,7 +13,7 @@
   background-image: url("https://stayhipp.com/wp-content/uploads/2020/11/telltaale-.jpg");
   background-repeat: repeat;
   width: 880px;
-  height: 400px;
+  height: 300px;
   
 }
 
@@ -36,9 +36,6 @@
 }
 
 #garment {
-  background-image: url("assets/rick/shorts.png");
-  background-repeat: no-repeat;
-
   width: 150px;
   height: 130px;
 

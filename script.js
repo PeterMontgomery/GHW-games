@@ -13,16 +13,22 @@ const garmentArray = [
 garmentArray.sort(() => 0.5 - Math.random())
 const gridDisplay = document.querySelector('#grid')
 
-function createWardrobe(){
-    for (let i = 0; i < garmentArray.length; i++){
-        const garm = document.createElement('img')
-        garm.setAttribute('src', garmentArray[i].img)
-        garm.setAttribute('data-id', i)
-        //garm.addEventListener('click', selectGarm)
-        gridDisplay.append(garm)
-    }
-}
-createWardrobe()
+// function createWardrobe(){
+//     for (let i = 0; i < garmentArray.length; i++){
+//         const garm = document.createElement('img')
+//         garm.setAttribute('src', garmentArray[i].img)
+//         garm.setAttribute('data-id', i)
+//         //garm.addEventListener('click', selectGarm)
+//         gridDisplay.append(garm)
+//     }
+// }
+// createWardrobe()
+
+
+const garmDisplay = document.querySelector('#garment')
+const g = document.createElement('img')
+g.setAttribute('src', garmentArray[Math.floor(Math.random() * garmentArray.length)].img)
+garmDisplay.append(g)
 
 function animateGarment(){
     

@@ -12,6 +12,7 @@ const garmentArray = [
 //trick to sort array randomly!
 garmentArray.sort(() => 0.5 - Math.random())
 const gridDisplay = document.querySelector('#grid')
+
 function createWardrobe(){
     for (let i = 0; i < garmentArray.length; i++){
         const garm = document.createElement('img')
@@ -27,13 +28,7 @@ createWardrobe()
 var character = document.getElementById("scene");
 var garment = document.getElementById("garment");
 var counter=0;
-function puton(){
-    if(character.classList == "animate"){return}
-    character.classList.add("animate");
-    setTimeout(function(){
-        character.classList.remove("animate");
-    },300);
-}
+
 // var checkDead = setInterval(function() {
 //     let characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
 //     let blockLeft = parseInt(window.getComputedStyle(garment).getPropertyValue("left"));

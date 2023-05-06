@@ -36,7 +36,7 @@ function createGarment() {
     g.setAttribute('id', "rick")
     g.setAttribute('src', garmentArray[Math.floor(Math.random() * garmentArray.length)].img)
     g.addEventListener('click', () => {
-        if (g.id == 0){
+        if (g.id == "rick"){
             result++;
             scoreSpan.textContent = result
         }
